@@ -174,7 +174,7 @@ const useAddress = (onCritFail) => {
 
                 if (!isReady && wasReadyRef.current && onCritFail && !isExiting()) {
                     onCritFail()({
-                        message: _("The Anaconda installation has stopped unexpectedly."),
+                        message: _("The installation has stopped unexpectedly."),
                     });
                 }
             }
